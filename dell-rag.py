@@ -6,7 +6,7 @@ load_dotenv()
 api_key = os.getenv("OPENAI_API_KEY")
 
 # 載入文件
-documents = SimpleDirectoryReader("dell").load_data()
+documents = SimpleDirectoryReader("dell-rag").load_data()
 
 # 建立索引
 index = VectorStoreIndex.from_documents(documents)
