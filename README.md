@@ -7,4 +7,4 @@
 ## Dell AI RAG demo:
 - Use LlamaIndex to implement RAG practice. [Click here to visit the demo](http://103.144.32.3:8080/gpt/demo-rag-dell.html)
 - `dell-rag.py`: This script uses LlamaIndex to index and query documents, and it sets up a Flask web service to interact with the model.
-- `dell/`: The directory where the documents or files you want to index are stored
+- `dell-rag/`: The directory where the documents or files you want to index are stored
